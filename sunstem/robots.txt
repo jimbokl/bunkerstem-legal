@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jimbokl.github.io/bunkerstem-legal/sunstem/sitemap.xml

@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>SunStem Privacy Policy</title>
+  <link rel="canonical" href="https://jimbokl.github.io/bunkerstem-legal/sunstem/privacy/">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f8faf8;
+      --fg: #111614;
+      --muted: #52615b;
+      --line: #dbe4df;
+      --accent: #167a3d;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #101412;
+        --fg: #f5f8f6;
+        --muted: #a7b5ae;
+        --line: #26332d;
+        --accent: #6ee58f;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font: 16px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
+    }
+    main {
+      width: min(760px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0 64px;
+    }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 20px; }
+    h1 { font-size: clamp(2rem, 7vw, 3.2rem); line-height: 1.04; margin: 0 0 12px; letter-spacing: 0; }
+    h2 { font-size: 1.25rem; margin: 32px 0 8px; letter-spacing: 0; }
+    p, li { color: var(--fg); }
+    .muted { color: var(--muted); }
+    a { color: var(--accent); text-decoration-thickness: 0.08em; text-underline-offset: 0.18em; }
+    ul { padding-left: 1.2rem; }
+    nav { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 16px; }
+    footer { border-top: 1px solid var(--line); margin-top: 40px; padding-top: 16px; color: var(--muted); font-size: 0.92rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="muted">SunStem Privacy Policy</p>
+      <h1>Privacy Policy</h1>
+      <p>SunStem is designed as an offline-first native iPhone and iPad app for off-grid power planning, monitoring evidence and local alerts.</p>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/support/">Support</a>
+      </nav>
+    </header>
+    <section>
+      <h2>Data stored on your device</h2>
+      <ul>
+        <li>Saved system profile, loads, manual readings and local telemetry history.</li>
+        <li>Local validation packets for TestFlight, field evidence, forecast inputs and alert behavior.</li>
+        <li>Local event names and timestamps used to understand whether key app flows were reached.</li>
+        <li>Victron AES keys and optional VRM tokens stored in the iOS Keychain.</li>
+      </ul>
+      <h2>Data sent outside your device</h2>
+      <ul>
+        <li>If you run Open-Meteo forecast import, SunStem sends region-derived latitude and longitude to Open-Meteo to request hourly cloud-cover forecast data.</li>
+        <li>If you choose to share an export through the iOS share sheet, the destination receives the content you selected.</li>
+      </ul>
+      <h2>Data SunStem does not collect in the current build</h2>
+      <ul>
+        <li>No account is required before first value.</li>
+        <li>No advertising tracking and no sale of personal data.</li>
+        <li>No contact list, photo library, microphone, camera, HealthKit or precise device GPS access.</li>
+        <li>No exported Victron AES keys or VRM tokens in validation evidence packets.</li>
+      </ul>
+      <h2>App boundary</h2>
+      <p>SunStem provides planning estimates and read-only evidence exports. It does not certify electrical installations and does not control chargers, inverters or BMS hardware.</p>
+      <h2>Contact</h2>
+      <p>For privacy questions, contact <a href="mailto:andyinvestizo@gmail.com">andyinvestizo@gmail.com</a>.</p>
+    </section>
+
+    <footer>
+      SunStem is a native iPhone and iPad app. These pages are static App Store support and privacy pages, not a web app surface.
+    </footer>
+  </main>
+</body>
+</html>

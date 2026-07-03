@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>SunStem</title>
+  <link rel="canonical" href="https://jimbokl.github.io/bunkerstem-legal/sunstem/">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f8faf8;
+      --fg: #111614;
+      --muted: #52615b;
+      --line: #dbe4df;
+      --accent: #167a3d;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #101412;
+        --fg: #f5f8f6;
+        --muted: #a7b5ae;
+        --line: #26332d;
+        --accent: #6ee58f;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font: 16px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
+    }
+    main {
+      width: min(760px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0 64px;
+    }
+    header { border-bottom: 1px solid var(--line); margin-bottom: 28px; padding-bottom: 20px; }
+    h1 { font-size: clamp(2rem, 7vw, 3.2rem); line-height: 1.04; margin: 0 0 12px; letter-spacing: 0; }
+    h2 { font-size: 1.25rem; margin: 32px 0 8px; letter-spacing: 0; }
+    p, li { color: var(--fg); }
+    .muted { color: var(--muted); }
+    a { color: var(--accent); text-decoration-thickness: 0.08em; text-underline-offset: 0.18em; }
+    ul { padding-left: 1.2rem; }
+    nav { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 16px; }
+    footer { border-top: 1px solid var(--line); margin-top: 40px; padding-top: 16px; color: var(--muted); font-size: 0.92rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="muted">SunStem</p>
+      <h1>Off-grid power cockpit for iPhone and iPad</h1>
+      <p>SunStem helps RV, van, caravan, boat and cabin owners review battery risk, local energy assumptions and read-only field evidence.</p>
+      <nav>
+        <a href="/support/">Support</a>
+        <a href="/privacy/">Privacy Policy</a>
+      </nav>
+    </header>
+    <section>
+      <h2>Native app scope</h2>
+      <p>SunStem is an offline-first native iOS app. It provides planning estimates and read-only evidence exports; it does not certify electrical installations or control chargers, inverters or BMS hardware.</p>
+    </section>
+
+    <footer>
+      SunStem is a native iPhone and iPad app. These pages are static App Store support and privacy pages, not a web app surface.
+    </footer>
+  </main>
+</body>
+</html>
