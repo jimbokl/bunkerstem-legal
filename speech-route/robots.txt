@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jimbokl.github.io/bunkerstem-legal/speech-route/sitemap.xml
